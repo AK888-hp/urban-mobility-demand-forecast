@@ -1,0 +1,23 @@
+# Traffic Dataset Schema
+
+Source: Smart Mobility Traffic Dataset
+
+Columns:
+    'Timestamp',
+    'Latitude',
+    'Longitude',
+    'Vehicle_Count',
+    'Traffic_Speed_kmh', 'Road_Occupancy_%', 'Traffic_Light_State',
+    'Weather_Condition', 'Accident_Report', 'Sentiment_Score',
+    'Ride_Sharing_Demand', 'Parking_Availability', 'Emission_Levels_g_km',
+    'Energy_Consumption_L_h', 'Traffic_Condition'
+
+# Data Quality Checklist
+
+[ ] Timestamp format confirmed  
+[ ] Sampling interval verified  
+[ ] Missing values identified  
+[ ] Outliers identified  
+[ ] Detector IDs inspected  
+[ ] Units (speed/flow) understood  
+[ ] Ready for cleaning
